@@ -1,0 +1,49 @@
+name: "Tarea 2: Modelo relacional"
+description: Modela la relación entre estudiantes y materias.
+title: "Tarea 2 - [Tu nombre]"
+labels: ["tarea-2"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Vamos a modelar la relación entre "estudiantes" y "materias" de tu colegio.
+        Al enviar este formulario, queda como tu entrega de la Tarea 2.
+  - type: textarea
+    id: tabla_estudiantes
+    attributes:
+      label: Tabla estudiantes
+      description: "Columnas en el formato: nombre_columna - tipo_de_dato - ¿es llave primaria o foránea?"
+      placeholder: |
+        id - entero - llave primaria
+        nombre - texto - ninguna
+        grupo - texto - ninguna
+    validations:
+      required: true
+  - type: textarea
+    id: tabla_materias
+    attributes:
+      label: Tabla materias
+      description: "Columnas en el formato: nombre_columna - tipo_de_dato - ¿es llave primaria o foránea?"
+      placeholder: |
+        id - entero - llave primaria
+        nombre_materia - texto - ninguna
+        docente - texto - ninguna
+    validations:
+      required: true
+  - type: textarea
+    id: tabla_intermedia
+    attributes:
+      label: Tabla intermedia (estudiante_materia)
+      description: "Columnas en el formato: nombre_columna - tipo_de_dato - ¿es llave primaria o foránea?"
+      placeholder: |
+        id_estudiante - entero - llave foránea
+        id_materia - entero - llave foránea
+    validations:
+      required: true
+  - type: textarea
+    id: explicacion
+    attributes:
+      label: ¿Por qué se necesita la tabla intermedia?
+      description: "Explica con tus palabras por qué no basta con las dos tablas de estudiantes y materias."
+    validations:
+      required: true
