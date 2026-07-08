@@ -1,7 +1,7 @@
 # Tarea 2 — Modelo relacional
 
-> **Dónde trabajas:** aquí mismo en GitHub (edita este archivo con el ícono de lápiz).
-> **Dónde entregas:** completa las tablas y la explicación en este mismo archivo y haz commit. No se usa papel ni ninguna otra app.
+> **Dónde trabajas:** en un formulario dentro de GitHub (pestaña "Issues").
+> **Dónde entregas:** toca la pestaña **Issues** de este repo → **New Issue** → elige la plantilla **"Tarea 2: Modelo relacional"** → completa los campos → **Submit new issue**. Eso es tu entrega, no necesitas editar este archivo.
 
 ## Objetivo
 Modelar la relación entre dos tablas usando llave primaria y llave foránea.
