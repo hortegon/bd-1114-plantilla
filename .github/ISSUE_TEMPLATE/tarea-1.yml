@@ -1,0 +1,50 @@
+name: "Tarea 1: ¿Qué es una base de datos?"
+description: Diseña la estructura de una tabla para un caso simple.
+title: "Tarea 1 - [Tu nombre]"
+labels: ["tarea-1"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Completa este formulario con el caso que elegiste (estudiantes, inventario, agenda, u otro).
+        Al enviarlo, este issue queda como tu entrega de la Tarea 1.
+  - type: dropdown
+    id: caso
+    attributes:
+      label: Caso elegido
+      options:
+        - Lista de estudiantes
+        - Inventario de una tienda
+        - Agenda de contactos
+        - Otro (explícalo en la siguiente pregunta)
+    validations:
+      required: true
+  - type: input
+    id: nombre_tabla
+    attributes:
+      label: Nombre de tu tabla
+      placeholder: "ej. estudiantes"
+    validations:
+      required: true
+  - type: textarea
+    id: columnas
+    attributes:
+      label: Columnas y tipos de dato
+      description: "Una columna por línea, en el formato: nombre_columna - tipo_de_dato - descripción"
+      placeholder: |
+        id - entero - identificador único
+        nombre - texto - nombre completo
+        fecha_nacimiento - fecha - fecha de nacimiento
+    validations:
+      required: true
+  - type: textarea
+    id: datos_ejemplo
+    attributes:
+      label: 3 filas de datos de ejemplo
+      description: "Una fila por línea, con los valores separados por comas"
+      placeholder: |
+        1, Ana Torres, 2008-03-14
+        2, Luis Ramirez, 2007-11-02
+        3, Marta Gomez, 2008-07-30
+    validations:
+      required: true
