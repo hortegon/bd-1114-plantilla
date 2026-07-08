@@ -1,5 +1,8 @@
 # Tarea 2 — Modelo relacional
 
+> **Dónde trabajas:** aquí mismo en GitHub (edita este archivo con el ícono de lápiz).
+> **Dónde entregas:** completa las tablas y la explicación en este mismo archivo y haz commit. No se usa papel ni ninguna otra app.
+
 ## Objetivo
 Modelar la relación entre dos tablas usando llave primaria y llave foránea.
 
