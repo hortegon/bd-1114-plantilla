@@ -1,5 +1,8 @@
 # Tarea 5 — Conexión con el proyecto real
 
+> **Dónde trabajas:** aquí mismo en GitHub (edita este archivo con el ícono de lápiz). El código que analizas viene de tu otro repositorio (el portal Flask), solo lo copias y pegas aquí.
+> **Dónde entregas:** completa la sección "Entregable" en este mismo archivo y haz commit.
+
 ## Objetivo
 Identificar y explicar cómo tu propio portal Flask (proyecto de clase) usa la base de datos SQLite.
 
