@@ -1,5 +1,8 @@
 # Tarea 3 — SQL básico
 
+> **Dónde trabajas:** DB Browser for SQLite (app que instalas en tu computador). Ahí creas la base de datos y ejecutas el SQL.
+> **Dónde entregas:** subes los archivos resultantes (`mi_base.db` y `entrega.sql`) a la carpeta `tarea-3/` de tu repo en GitHub, usando "Add file" → "Upload files".
+
 ## Objetivo
 Instalar DB Browser for SQLite, crear tu propia base de datos y ejecutar consultas básicas.
 
