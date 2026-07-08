@@ -1,0 +1,38 @@
+name: "Tarea 5: Conexión con el proyecto real"
+description: Explica cómo tu portal Flask usa la base de datos SQLite.
+title: "Tarea 5 - [Tu nombre]"
+labels: ["tarea-5"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Busca en tu portal Flask una consulta SQL real (login, registro, guardar un dato, etc.)
+        y explícala aquí. Al enviar este formulario, queda como tu entrega de la Tarea 5.
+  - type: textarea
+    id: consulta
+    attributes:
+      label: Consulta elegida
+      description: "Pega el código SQL o la línea de Python que la genera"
+      render: python
+    validations:
+      required: true
+  - type: textarea
+    id: que_hace
+    attributes:
+      label: ¿Qué hace esta consulta?
+      description: "Qué tabla(s) usa, qué operación hace (SELECT/INSERT/UPDATE/DELETE) y qué resultado produce"
+    validations:
+      required: true
+  - type: textarea
+    id: donde_se_usa
+    attributes:
+      label: ¿En qué parte de la aplicación se usa?
+      placeholder: "ej. Se ejecuta cuando el usuario hace clic en 'Guardar' en el formulario de registro"
+    validations:
+      required: true
+  - type: textarea
+    id: que_pasaria
+    attributes:
+      label: ¿Qué pasaría si esta consulta fallara?
+    validations:
+      required: true
