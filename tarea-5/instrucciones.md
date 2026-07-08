@@ -13,3 +13,14 @@ Identificar y explicar cómo tu propio portal Flask (proyecto de clase) usa la b
 Completa esta sección en el archivo:
 
 ### Consulta elegida
+### ¿Qué hace esta consulta?
+
+[Explica en tus palabras qué tabla(s) usa, qué operación hace (SELECT/INSERT/UPDATE/DELETE) y qué resultado produce]
+
+### ¿En qué parte de la aplicación se usa?
+
+[Ejemplo: "Se ejecuta cuando el usuario hace clic en 'Guardar' en el formulario de registro"]
+
+### ¿Qué pasaría si esta consulta fallara?
+
+[Explica qué error o comportamiento vería el usuario si esta consulta no funcionara]
