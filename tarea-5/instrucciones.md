@@ -1,0 +1,15 @@
+# Tarea 5 — Conexión con el proyecto real
+
+## Objetivo
+Identificar y explicar cómo tu propio portal Flask (proyecto de clase) usa la base de datos SQLite.
+
+## Instrucciones
+1. Abre el repositorio de tu portal Flask (el del currículo de 9 tareas).
+2. Busca en el código las partes donde se hace una operación CRUD (Create, Read, Update, Delete) contra la base de datos. Por ejemplo: el login, el registro de un usuario, guardar un dato en una tabla.
+3. Elige **una** consulta SQL concreta de tu proyecto (puede estar escrita directamente en SQL o generada por un ORM como SQLAlchemy).
+4. Completa el formulario de abajo explicando esa consulta.
+
+## Entregable
+Completa esta sección en el archivo:
+
+### Consulta elegida
