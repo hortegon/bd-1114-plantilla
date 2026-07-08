@@ -1,5 +1,8 @@
 # Tarea 1 — ¿Qué es una base de datos?
 
+> **Dónde trabajas:** aquí mismo en GitHub (edita este archivo con el ícono de lápiz).
+> **Dónde entregas:** completa las tablas de la sección "Entregable" en este mismo archivo y haz commit. No se usa papel ni ninguna otra app.
+
 ## Objetivo
 Diseñar en papel o en este archivo la estructura de una tabla para un caso simple.
 
