@@ -1,5 +1,8 @@
 # Tarea 4 — SQL intermedio
 
+> **Dónde trabajas:** DB Browser for SQLite (app que instalas en tu computador). Ahí generas la base de ejemplo y ejecutas el SQL.
+> **Dónde entregas:** subes los archivos resultantes (`ejemplo.db` y `entrega.sql`) a la carpeta `tarea-4/` de tu repo en GitHub, usando "Add file" → "Upload files".
+
 ## Objetivo
 Practicar JOIN, funciones de agregación (COUNT, SUM, AVG) y GROUP BY.
 
